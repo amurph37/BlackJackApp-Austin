@@ -1,9 +1,9 @@
 package org.example;
 
 public interface DeckActions {
-    public void shuffle() ;
+    void shuffle();
 
-    public Card dealNextCard();
+    Card dealNextCard();
 
-    public void printDeck(int numToPrint) ;
+    void printDeck(int numToPrint);
 }
